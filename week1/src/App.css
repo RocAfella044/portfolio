@@ -495,6 +495,12 @@ body {
   margin: 0 auto;
 }
 
+.contact-page h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #f4f1ff;
+}
+
 .form-group {
   margin-bottom: 1.5rem;
   display: flex;
@@ -502,7 +508,7 @@ body {
 }
 
 .form-group label {
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   color: #f4f1ff;
   font-weight: 500;
   display: flex;
@@ -513,10 +519,10 @@ body {
 .form-group input,
 .form-group textarea {
   padding: 0.75rem;
-  border: 1px solid rgba(195, 177, 225, 0.2);
+  border: 3px solid rgba(195, 177, 225, 0.2);
   border-radius: 12px;
   background: rgba(255, 255, 255, 0.04);
-  color: #f4f1ff;
+  color: #dcdae5;
   font-family: inherit;
   font-size: 1rem;
 }

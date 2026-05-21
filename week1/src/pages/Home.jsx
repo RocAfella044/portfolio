@@ -9,7 +9,7 @@ export default function Home({ setCurrentPage }) {
         <p className="hero-description">
           I am a creative frontend developer (React.jsx). I am currently living
           in kathmandu, Nepal and completed my bachelor's degree in computer
-          science affilated to london metropolitan university.
+          science at Informatics College, Pokhara (affiliated to London Metropolitan University).
         </p>
         <div className="hero-actions">
           <button
@@ -43,21 +43,22 @@ export default function Home({ setCurrentPage }) {
           <h3>Education</h3>
           <ul className="skills-gained-list">
             <li>
-              Kaligandaki Secondary School <br></br>2005–2017
+              Kaligandaki Secondary School, Baglung <br></br>
+              2005–2017
             </li>
             <li>
-              Trinity International College (Science) -- 2018–2020
-              <br></br>
+              Trinity International College, Kathmandu <br></br>
+              (Science) -- 2018–2020
             </li>
             <li>
-              Informatics College <br></br>
+              Informatics College, Pokhara <br></br>
               (BIT) -- 2022–2025
             </li>
             <li>
-              Intern at Xdezo Technology <br></br>Nov 2024 – Febuary 2025
+              Intern at Xdezo Technology, Pokhara <br></br>Nov 2024 – Febuary 2025
             </li>
             <li>
-              Intern at Swift Technology <br></br> May 2026 – Present
+              Intern at Swift Technology, Kathmandu <br></br> May 2026 – Present
             </li>
           </ul>
         </aside>

@@ -3,7 +3,7 @@ export default function Projects() {
     {
       id: 1,
       title: 'FYP',
-      description: 'Final year project with frontend and backend integration.',
+      description: 'Final year project with both frontend (React) and backend (Django) .',
       repo: 'https://github.com/RocAfella044/fyp',
     },
     {

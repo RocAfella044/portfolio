@@ -2,9 +2,16 @@ import { FaReact, FaServer, FaTools } from 'react-icons/fa'
 
 export default function Skills() {
   const skills = [
-    { category: 'Frontend', items: ['React', 'JavaScript', 'CSS', 'HTML'], icon: FaReact },
-    { category: 'Tools', items: ['Git', 'Vite', 'VS Code', 'Figma'], icon: FaTools },
-  ]
+    {
+      category: 'Frontend',
+      items: ['HTML', 'CSS', 'JavaScript', 'React'],  icon: FaReact,
+    },
+    {
+      category: 'Tools',
+      items: ['Git', 'Vite', 'VS Code', 'Figma'],
+      icon: FaTools,
+    },
+  ];
 
   return (
     <section className="page skills-page">
@@ -18,7 +25,7 @@ export default function Skills() {
               <h3>{skillGroup.category}</h3>
               <ul className="skill-list">
                 {skillGroup.items.map((skill) => (
-                  <li key={skill} className="skill-item">✓ {skill}</li>
+                  <li key={skill} className="skill-item"> {skill}</li>
                 ))}
               </ul>
             </div>

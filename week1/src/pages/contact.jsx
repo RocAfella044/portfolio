@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FaUser, FaEnvelope, FaComments, FaPaperPlane, FaGenderless } from 'react-icons/fa';
+import { FaUser, FaEnvelope, FaComments, FaPaperPlane, FaTransgenderAlt } from 'react-icons/fa';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -22,7 +22,7 @@ export default function Contact() {
 
   return (
     <section className="page contact-page">
-      <h2>Contact Me</h2>
+      <h2>Contact Me </h2>
       <form className="contact-form" onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="name">
@@ -41,7 +41,7 @@ export default function Contact() {
 
         <div className="form-group">
           <label htmlFor="email">
-            <FaEnvelope /> Email:
+            <FaEnvelope /> Outlook:
           </label>
           <input
             type="email"
@@ -56,7 +56,7 @@ export default function Contact() {
 
         <div className="form-group">
           <label htmlFor="age">
-            <FaGenderless /> Age:
+            <FaTransgenderAlt /> Age:
           </label>
           <input
             type="number"
