@@ -1,9 +1,30 @@
 export default function Projects() {
   const projects = [
-    { id: 1, title: 'I am jose mourinho', description: 'you cannot put pressure on me' },
-    { id: 2, title: 'I am being serious', description: '6 7' },
-    { id: 3, title: 'shut the fa cup', description: 'well well well' },
-  ]
+    {
+      id: 1,
+      title: 'FYP',
+      description: 'Final year project with frontend and backend integration.',
+      repo: 'https://github.com/RocAfella044/fyp',
+    },
+    {
+      id: 2,
+      title: 'Moneymap',
+      description: 'Personal finance tracker with charts and budget planning.',
+      repo: 'https://github.com/RocAfella044/moneymap',
+    },
+    {
+      id: 3,
+      title: 'Portfolio',
+      description: 'Responsive portfolio website built with React and Vite.',
+      repo: 'https://github.com/RocAfella044/portfolio',
+    },
+    {
+      id: 4,
+      title: 'Project Artifacts',
+      description: 'Collection of project files, reports, and code samples.',
+      repo: 'https://github.com/RocAfella044/project-artifacts',
+    },
+  ];
 
   return (
     <section className="page projects-page">
@@ -13,9 +34,17 @@ export default function Projects() {
           <div key={project.id} className="project-card">
             <h3>{project.title}</h3>
             <p>{project.description}</p>
+            <a
+              href={project.repo}
+              target="_blank"
+              rel="noreferrer"
+              className="project-link"
+            >
+              {project.repo}
+            </a>
           </div>
         ))}
       </div>
     </section>
-  )
+  );
 }
