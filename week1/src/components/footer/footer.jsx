@@ -1,10 +1,10 @@
-import { FaGithub, FaLinkedin, FaInstagram, FaFacebook } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaInstagram, FaFacebook } from 'react-icons/fa';
 
 export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-container">
-        <p>Whatever</p>
+        <p>ME vs ME</p>
         <div className="social-links">
           <a
             href="https://github.com/RocAfella044"

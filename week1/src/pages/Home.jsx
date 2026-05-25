@@ -7,9 +7,10 @@ export default function Home({ setCurrentPage }) {
         <span className="hero-tag">Hello Homosapiens. I am</span>
         <h1>Mandeep Rajbhandari</h1>
         <p className="hero-description">
-          I am a creative frontend developer (React.jsx). I am currently living
+          I am a creative frontend developer (React.js). I am currently living
           in kathmandu, Nepal and completed my bachelor's degree in computer
-          science at Informatics College, Pokhara (affiliated to London Metropolitan University).
+          science at Informatics College, Pokhara (affiliated to London
+          Metropolitan University).
         </p>
         <div className="hero-actions">
           <button
@@ -34,8 +35,8 @@ export default function Home({ setCurrentPage }) {
             <img src={wowImage} alt="About me" className="about-card-image" />
           </div>
           <p>
-            I am Mandeep Rajbhandari. A 23 years old who is currently learning (intern) at Swift Technology
-            Pvt Ltd based in Kathmandu, Nepal.
+            I am Mandeep Rajbhandari. A 23 years old who is currently learning
+            (as an intern) at Swift Technology Pvt Ltd based in Kathmandu, Nepal.
           </p>
         </aside>
 
@@ -55,7 +56,8 @@ export default function Home({ setCurrentPage }) {
               (BIT) -- 2022–2025
             </li>
             <li>
-              Intern at Xdezo Technology, Pokhara <br></br>Nov 2024 – Febuary 2025
+              Intern at Xdezo Technology, Pokhara <br></br>Nov 2024 – Febuary
+              2025
             </li>
             <li>
               Intern at Swift Technology, Kathmandu <br></br> May 2026 – Present
@@ -82,7 +84,6 @@ export default function Home({ setCurrentPage }) {
             <li>English — Fluent</li>
             <li>Hindi — Conversational</li>
             <li>Korean — Conversational</li>
-
           </ul>
         </aside>
       </div>

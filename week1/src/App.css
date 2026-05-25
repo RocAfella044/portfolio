@@ -604,7 +604,7 @@ body {
 /* Responsive */
 @media (max-width: 768px) {
   .nav-menu {
-    gap: 1rem;
+    gap: rem;
   }
 
   .nav-link {
